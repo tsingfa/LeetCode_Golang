@@ -41,7 +41,7 @@ func printLinkedList(head *ListNode) {
 	//遍历打印链表中所有元素的值
 	dummyHead := NewListNode(0)
 	dummyHead.Next = head
-	fmt.Println("打印链表：")
+	fmt.Println("打印链表:")
 	tmp := dummyHead
 	i := 0
 	for tmp.Next != nil {
@@ -74,7 +74,7 @@ func printLinkedList2(head *ListNode) {
 	}
 	tmp := head //用于遍历
 	i := 1
-	fmt.Println("打印链表：")
+	fmt.Println("打印链表:")
 	for tmp.Next != nil {
 		fmt.Printf("%v ", tmp.Val)
 		i++
